@@ -1,0 +1,13 @@
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: lightslategrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: deepskyblue;
+}

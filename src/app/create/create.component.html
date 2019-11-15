@@ -1,0 +1,13 @@
+<form (ngSubmit)="valider()" [formGroup]="articleForm">
+
+    <label for="titre"> Titre de votre article :</label>
+    <input type="text" name="titre" formControlName="titre">
+
+    <label for="contenu"> Votre article :</label>
+    <textarea name="contenu" id="contenu" cols="10" rows="10" formControlName="contenu"></textarea>
+
+    <label for="image"> Votre image :</label>
+    <input type="url" name="image" placeholder="https://example.com" formControlName="image">
+
+    <button type="submit"> Valider </button>
+</form>

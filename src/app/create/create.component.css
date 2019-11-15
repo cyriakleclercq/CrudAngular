@@ -1,0 +1,19 @@
+form {
+    border: solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+textarea {
+    height: 60%;
+}
+
+input, textarea {
+    width: 80%;
+}
