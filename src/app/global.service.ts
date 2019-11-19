@@ -20,7 +20,10 @@ export class GlobalService {
 
   updateArticle(f, id) {
     let article: ArticleModel = new ArticleModel(new Date(), f.titre, f.contenu, f.image);
-    this.receiveArticle.push(article[id]);
+
+
+    this.receiveArticle.splice(id, 1, article);
+
 
   }
 

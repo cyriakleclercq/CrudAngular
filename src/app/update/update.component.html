@@ -3,7 +3,8 @@
     <input type="text" name="titre" value="{{ articles.titre }}" formControlName="titre">
 
     <label for="contenu"> contenu</label>
-    <textarea name="contenu" id="" cols="30" rows="10" formControlName="contenu"> {{ articles.contenu }} </textarea>
+    <textarea name="contenu" id="contenu" cols="30" rows="10" formControlName="contenu"
+        [(ngModel)]="articles.contenu"></textarea>
 
     <label for="image"> image </label>
     <input type="url" name="image" value="{{ articles.image }}" formControlName="image">
